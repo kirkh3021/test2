@@ -23,7 +23,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 public class Test2 implements EntryPoint {
 	/**
 	 * The message displayed to the user when the server cannot be reached or
-	 * returns an error.kirk  version 1.0 Updated
+	 * returns an error.kirk  version 1.0 Updated  farking
 	 */
 	private static final String SERVER_ERROR = "An error occurred while "
 			+ "attempting to contact the server. Please check your network "
@@ -68,7 +68,7 @@ public class Test2 implements EntryPoint {
 		final HTML serverResponseLabel = new HTML();
 		VerticalPanel dialogVPanel = new VerticalPanel();
 		dialogVPanel.addStyleName("dialogVPanel");
-		dialogVPanel.add(new HTML("<b>Sending name to the server:</b>"));
+		dialogVPanel.add(new HTML("<b>Sending Friggin name to the server:</b>"));
 		dialogVPanel.add(textToServerLabel);
 		dialogVPanel.add(new HTML("<br><b>Server replies:</b>"));
 		dialogVPanel.add(serverResponseLabel);
